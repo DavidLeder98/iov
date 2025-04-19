@@ -23,7 +23,7 @@
     object-fit: cover;
     object-position: bottom;
     z-index: 2;
-    animation: hero-img 2s ease-out forwards;
+    animation: hero-img 3s ease-out forwards;
 }
 
 .hero-essence-positioner{

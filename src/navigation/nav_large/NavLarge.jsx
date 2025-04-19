@@ -169,13 +169,13 @@ const NavLarge = () => {
                             <div className="dd-menu-frame"></div>
                         </li>
                         <li className="nl-li">
-                            <NavLink
-                                to="/sadrzaj"
-                                className={({ isActive }) => isActive ? "nl-a active" : "nl-a"}
+                            <a
+                                href="/sadrzaj"
+                                className="nl-a"
                                 onClick={handleNavClick("/sadrzaj")}
                             >
                                 Sadržaj
-                            </NavLink>
+                            </a>
                             <div className={`nl-li-underline ${scrolled ? "scrolled" : ""}`}></div>
                         </li>
                         <li className="nl-li">
