@@ -1,0 +1,28 @@
+.nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+@media (min-width: 1201px){
+    .nl-selector{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .ns-selector{
+        display: none;
+    }
+}
+
+@media (max-width: 1200px){
+    .nl-selector{
+        display: none;
+    }
+
+    .ns-selector{
+        display: inline-block;
+        width: 100%;
+    }
+}
