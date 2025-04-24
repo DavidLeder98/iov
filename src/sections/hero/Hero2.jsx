@@ -1,10 +1,9 @@
 import './Hero2.css';
-import hero from '../../assets/structural/hero1.jpg';
+import hero from '../../assets/structural/hero1.avif';
 import hospital from '../../assets/svgs/hospital.svg';
 import micro from '../../assets/svgs/micro.svg';
 import calendar from '../../assets/svgs/calendar.svg';
 import clock from '../../assets/svgs/clock.svg';
-import document from '../../assets/svgs/document.svg';
 
 const Hero2 = () => {
     return(

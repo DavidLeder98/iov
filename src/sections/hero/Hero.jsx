@@ -1,5 +1,5 @@
 import './Hero.css';
-import hero from '../../assets/structural/hero1.jpg';
+import hero from '../../assets/structural/hero1.avif';
 import hospital from '../../assets/svgs/hospital.svg';
 import micro from '../../assets/svgs/micro.svg';
 import calendar from '../../assets/svgs/calendar.svg';
