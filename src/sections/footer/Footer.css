@@ -26,6 +26,7 @@
     padding: 0 0 10px 0;
     margin: 0 0 15px 0;
     width: 100%;
+    font-style: normal;
 }
 
 .f-ul{
@@ -44,6 +45,8 @@
     flex-direction: row;
     align-items: center;
     gap: 15px;
+    font-size: 0.9rem;
+    font-style: italic;
 }
 
 .f-address{
@@ -89,7 +92,7 @@
 }
 
 .f-pages{
-    width: 240px;
+    width: 200px;
 }
 
 .fp-ul{
