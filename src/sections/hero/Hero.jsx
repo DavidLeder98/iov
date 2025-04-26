@@ -1,10 +1,11 @@
 import './Hero.css';
 import hero from '../../assets/structural/hero1.avif';
-import hospital from '../../assets/svgs/hospital.svg';
-import micro from '../../assets/svgs/micro.svg';
-import calendar from '../../assets/svgs/calendar.svg';
+import hospital from '../../assets/svgs/hero/hospital.svg';
+import micro from '../../assets/svgs/hero/micro.svg';
+import calendar from '../../assets/svgs/hero/calendar.svg';
+import clock from '../../assets/svgs/hero/clock.svg';
 
-const Hero = () => {
+const Hero2 = () => {
     return(
         <section className="hero">
             <img src={hero} alt="Institut za onkologiju vojvodine" className="hero-img" />
@@ -16,30 +17,34 @@ const Hero = () => {
                             <img src={calendar} alt="Zakazivanje" className="hes-img" />
                         </div>
                         <h3 className="hes-h3">Zakazivanje</h3>
-                        <p className="hes-p">
-                            U proteklom periodu došlo je do izmene u načinu zakazivanja specijalističko-konsultativnih pregleda u zdravstvenom sistemu Republike Srbije.
-                        </p>
-                        <button className="hes-btn">Saznaj više</button>
+                        <p className="hes-p">Dijagnostičke usluge se mogu već zakazati i elektronskim putem!</p>
+                        <div className="hes-bottom"></div>
                     </div>
                     <div className="he-section hes-2">
                         <div className="hes-img-cont">
-                            <img src={hospital} alt="O Institutu" className="hes-img" />
+                            <img src={clock} alt="O Institutu" className="hes-img" />
                         </div>
-                        <h3 className="hes-h3">O Institutu</h3>
-                        <p className="hes-p">
-                            Pročitajte najvažnije informacije o Institutu: organizaciji, misiji, viziji, izvodu iz kućnog reda, upravi, delatnosti i koje bolesti lečimo.
-                        </p>
-                        <button className="hes-btn">Saznaj više</button>
+                        <h3 className="hes-h3">Radno vreme</h3>
+                        <p className="hes-p">Saznajte više o radnom vremenu naših ambulanti i lekara.</p>
+                        <div className="hes-bottom"></div>
                     </div>
                     <div className="he-section hes-3">
                         <div className="hes-img-cont">
                             <img src={micro} alt="Broba protiv raka" className="hes-img" />
                         </div>
-                        <h3 className="hes-h3">Borba protiv raka</h3>
-                        <p className="hes-p">
-                            Rak nije bolest koja ima jednog poznatog uzročnika, već kompleksno oboljenje čiji su uzročnici nepoznati. Poznati su samo faktori rizika koji doprinose njegovom nastanku.
-                        </p>
-                        <button className="hes-btn">Saznaj više</button>
+                        <h3 className="hes-h3">Registar za rak</h3>
+                        <p className="hes-p">Saznajte više o trendovima i epidemiologiji raka u Vojvodini.</p>
+                        <div className="hes-bottom"></div>
+                    </div>
+                    <div className="he-section hes-4">
+                        <div className="hes-img-cont">
+                            <img src={hospital} alt="O Institutu" className="hes-img" />
+                        </div>
+                        <div className="hes-text">
+                            <h3 className="hes-h3">O Institutu</h3>
+                            <p className="hes-p">Saznajte više o našim delatnostima, projektima i istoriji.</p>
+                        </div>
+                        <div className="hes-bottom"></div>
                     </div>
                 </div>
             </div>
@@ -47,4 +52,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default Hero2;

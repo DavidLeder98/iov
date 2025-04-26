@@ -4,10 +4,10 @@ import { Link, NavLink, useLocation, useNavigate  } from "react-router-dom";
 import arrow2 from '../../assets/svgs/nav-arrow-red.svg';
 import arrow1 from '../../assets/svgs/nav-arrow-blue.svg';
 import { useState, useEffect } from "react";
-import serbia from '../../assets/svgs/serbia.svg';
-import britain from '../../assets/svgs/britain.svg';
-import hungary from '../../assets/svgs/hungary.svg';
-import slovakia from '../../assets/svgs/slovakia.svg';
+import serbia from '../../assets/svgs/lang/serbia.svg';
+import britain from '../../assets/svgs/lang/britain.svg';
+import hungary from '../../assets/svgs/lang/hungary.svg';
+import slovakia from '../../assets/svgs/lang/slovakia.svg';
 
 const NavLarge = () => {
     const location = useLocation();
@@ -97,10 +97,7 @@ const NavLarge = () => {
                                         <Link className="ddm-li-a" to="/" >O Institutu</Link>
                                     </li>
                                     <li className="ddm-li">
-                                        <Link className="ddm-li-a" to="/" >Misija</Link>
-                                    </li>
-                                    <li className="ddm-li">
-                                        <Link className="ddm-li-a" to="/" >Vizija</Link>
+                                        <Link className="ddm-li-a" to="/" >Misija i Vizija</Link>
                                     </li>
                                     <li className="ddm-li">
                                         <Link className="ddm-li-a" to="/" >Kućni red</Link>

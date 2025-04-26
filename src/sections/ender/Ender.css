@@ -1,0 +1,11 @@
+.ender{
+    width: 100%;
+    background-color: #0a1629;
+    padding: 20px 0;
+}
+
+.ender-p{
+    color: #777;
+    text-align: center;
+    line-height: 1.5rem;
+}

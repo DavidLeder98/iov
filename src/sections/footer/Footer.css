@@ -1,8 +1,8 @@
 .footer{
     width: 100%;
-    height: 500px;
     margin: 100px 0 0 0;
     background-color: #193a79;
+    color: #fff;
 }
 
 .footer-essence{
@@ -15,8 +15,91 @@
     justify-content: space-between;
 }
 
-.fe-section{
-    width: 200px;
-    height: 200px;
-    border: 1px solid #ffffff4b;
+.f-contact{
+    width: 360px;
+}
+
+.f-h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-bottom: #D22B2B 2px solid;
+    padding: 0 0 10px 0;
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+
+.f-ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.f-li{
+    display: inline-block;
+}
+
+.f-a{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.f-address{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.f-a:hover .f-span{
+    text-decoration: underline;
+}
+
+.f-img-cont{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.f-phone{
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: 3px;
+}
+
+.f-location{
+    height: 21px;
+    width: 21px;
+}
+
+.f-email{
+    height: 18px;
+    width: 18px;
+}
+
+.f-fax{
+    height: 22px;
+    width: 22px;
+}
+
+.f-pages{
+    width: 240px;
+}
+
+.fp-ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.f-link:hover {
+    text-decoration: underline;
 }
