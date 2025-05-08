@@ -1,0 +1,107 @@
+.contact{
+    width: 100%;
+    max-width: 1400px;
+    margin: 100px auto 0 auto;
+}
+
+.c-h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.contact-essence{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+}
+
+.contact-left{
+    width: 500px;
+    height: 530px;
+    background-color: #193a79;
+    padding: 40px 40px 40px 24px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.c-h3{
+    width: 100%;
+    text-align: left;
+    border-bottom: 3px solid #D22B2B;
+    padding: 0 0 16px 20px;
+    margin: 0 0 16px 0;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.c-ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-li{
+    display: inline-block;
+}
+
+.c-a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-style: normal;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+}
+
+.c-a:hover{
+    background-color: #0e2144;
+}
+
+.c-address{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.c-img-cont{
+    height: 34px;
+    width: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.c-phone{
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: 3px;
+}
+
+.c-location{
+    height: 21px;
+    width: 21px;
+}
+
+.c-email{
+    height: 18px;
+    width: 18px;
+}
+
+.c-fax{
+    height: 22px;
+    width: 22px;
+}
+
+.contact-right{
+    width: 800px;
+}

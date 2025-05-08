@@ -1,5 +1,6 @@
 import './Nav.css';
 import NavLarge from '../nav_large/NavLarge';
+
 import NavSmall from '../nav_small/NavSmall';
 
 const Nav = () => {

@@ -6,10 +6,7 @@
     align-items: center;
     z-index: 101;
     position: relative;
-    backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px #0000001e solid;
-    background-color: #ffffff8e;
+    background-color: #af2b2b;
     transition: 0.3s ease-in-out;
 }
 
@@ -23,7 +20,7 @@
     width: 53%;
     top: 0;
     right: -50px;
-    opacity: 0.2;
+    opacity: 0;
     transform: skew(-30deg);
     background-color: #00205c;
 }
@@ -34,7 +31,7 @@
     width: 15%;
     top: 0;
     right: -50px;
-    opacity: 0.2;
+    opacity: 0;
     transform: skew(-30deg);
     background-color: #00205c;
 }
@@ -60,9 +57,14 @@
 }
 
 .nll-img-cont{
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     transition: 0.3s ease-in-out;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nll-img-cont.scrolled{
@@ -71,8 +73,9 @@
 }
 
 .nl-logo{
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 70%;
+    
 }
 
 .nll-text{
@@ -80,13 +83,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #00205c;
+    color: #fff;
 }
 
 .nllt-top{
     font-size: 1.4rem;
     padding: 0 30px 5px 0;
-    border-bottom: #00205c 2px solid;
+    border-bottom: #fff 2px solid;
     text-transform: uppercase;
     font-weight: 400;
     transition: 0.3s ease-in-out;
@@ -133,7 +136,7 @@
 }
 
 .nl-a{
-    color: #00205c;
+    color: #fff;
     height: 100%;
     display: flex;
     align-items: center;
