@@ -1,13 +1,14 @@
 .contact{
     width: 100%;
-    max-width: 1400px;
-    margin: 100px auto 0 auto;
+    max-width: 1280px;
+    padding: 0 32px;
+    margin: 96px auto 0 auto;
 }
 
 .c-h2{
     width: 100%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -17,26 +18,25 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 50px 0 0 0;
+    margin: 48px 0 0 0;
 }
 
 .contact-left{
-    width: 500px;
-    height: 530px;
+    width: 440px;
     background-color: #193a79;
-    padding: 40px 40px 40px 24px;
-    border-radius: 10px;
+    padding: 24px;
+    border-radius: 8px;
     color: #fff;
 }
 
 .c-h3{
     width: 100%;
     text-align: left;
-    border-bottom: 3px solid #D22B2B;
-    padding: 0 0 16px 20px;
+    border-bottom: 2px solid #D22B2B;
+    padding: 8px 0 24px 24px;
     margin: 0 0 16px 0;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -54,9 +54,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
     font-style: normal;
-    font-size: 1.1rem;
+    font-size: 16px;
     padding: 8px 16px;
 }
 
@@ -67,17 +67,17 @@
 .c-address{
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 4px;
 }
 
 .c-img-cont{
-    height: 34px;
-    width: 34px;
+    height: 32px;
+    width: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .c-phone{
@@ -103,5 +103,5 @@
 }
 
 .contact-right{
-    width: 800px;
+    width: 740px;
 }

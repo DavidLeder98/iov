@@ -1,0 +1,25 @@
+.nl-dropdown{
+    width: 100%;
+    background-color: #fff;
+    border-top: none;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2);
+    padding: 8px 0;
+}
+
+.nl-dd-li{
+    display: block;
+    padding: 12px 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nl-dd-li:hover{
+    background-color: #00205c30;
+}
+
+.nl-2-flag{
+    height: 24px;
+    margin: 0 16px 0 0;
+}

@@ -1,0 +1,147 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes hero-img {
+    from {
+        transform: translateX(-40px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.hero-img{
+    width: 102%;
+    position: absolute;
+    bottom: -150px;
+    object-fit: cover;
+    object-position: bottom;
+    z-index: 2;
+    animation: hero-img 5s ease-out forwards;
+}
+
+.hero-essence-positioner{
+    height: 100%;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+}
+
+.hero-essence{
+    width: 100%;
+    padding: 0 32px;
+    position: absolute;
+    bottom: 64px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.he-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@keyframes slideInFromBot {
+    0% {
+        transform: translateY(200px); /* Starts 50px above */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* Moves to its normal position */
+        opacity: 1;
+    }
+}
+
+.he-section{
+    width: 280px;
+    height: 250px;
+    background-color: #193a79;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0; /* Initially hidden */
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.he-section:hover{
+    background-color: #0c1f42;
+}
+
+.hes-1{
+    animation: slideInFromBot 0.7s ease-out 0.2s forwards;
+}
+
+.hes-2{
+    animation: slideInFromBot 0.7s ease-out 0.4s forwards;
+}
+
+.hes-3{
+    animation: slideInFromBot 0.7s ease-out 0.8s forwards;
+}
+.hes-4{
+    animation: slideInFromBot 0.7s ease-out 1s forwards;
+}
+
+.hes-5{
+    animation: slideInFromBot 0.7s ease-out 1.2s forwards;
+}
+
+.hes-6{
+    animation: slideInFromBot 0.7s ease-out 1.4s forwards;
+}
+
+.hes-img-cont{
+    width: 70px;
+    height: 70px;
+}
+
+.hes-img{
+    width: 70px;
+    height: 70px;
+    opacity: 0.9;
+    filter: invert(100%);
+}
+
+.hes-h3{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
+    font-weight: 400;
+    border-bottom: #2facff solid 1px;
+}
+
+.hes-p{
+    padding: 8px 0;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+}
+
+.hes-bottom{
+    position: absolute;
+    background-color: #D22B2B;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+}

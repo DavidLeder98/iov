@@ -1,11 +1,11 @@
-import './Hero.css';
+import './Hero2.css';
 import hero from '../../assets/structural/hero1.avif';
 import hospital from '../../assets/svgs/hero/hospital.svg';
 import micro from '../../assets/svgs/hero/micro.svg';
 import calendar from '../../assets/svgs/hero/calendar.svg';
 import clock from '../../assets/svgs/hero/clock.svg';
 
-const Hero = () => {
+const Hero2 = () => {
     return(
         <section className="hero">
             <img src={hero} alt="Institut za onkologiju vojvodine" className="hero-img" />
@@ -40,10 +40,8 @@ const Hero = () => {
                         <div className="hes-img-cont">
                             <img src={hospital} alt="O Institutu" className="hes-img" />
                         </div>
-                        <div className="hes-text">
-                            <h3 className="hes-h3">O Institutu</h3>
-                            <p className="hes-p">Saznajte više o našim delatnostima, projektima i istoriji.</p>
-                        </div>
+                        <h3 className="hes-h3">O Institutu</h3>
+                        <p className="hes-p">Saznajte više o našim delatnostima, projektima i istoriji.</p>
                         <div className="hes-bottom"></div>
                     </div>
                 </div>
@@ -52,4 +50,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default Hero2;

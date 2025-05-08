@@ -1,15 +1,15 @@
 .footer{
     width: 100%;
-    margin: 100px 0 0 0;
+    margin: 96px 0 0 0;
     background-color: #193a79;
     color: #fff;
 }
 
 .footer-essence{
     width: 100%;
-    max-width: 1400px;
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 50px 0 0 0;
+    padding: 48px 32px 0 32px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,11 +20,11 @@
 }
 
 .f-h4{
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: 400;
     border-bottom: #D22B2B 2px solid;
-    padding: 0 0 10px 0;
-    margin: 0 0 15px 0;
+    padding: 0 0 8px 0;
+    margin: 0 0 16px 0;
     width: 100%;
     font-style: normal;
 }
@@ -33,7 +33,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
 }
 
 .f-li{
@@ -44,15 +44,15 @@
     display: inline-flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
-    font-size: 0.9rem;
+    gap: 16px;
+    font-size: 14px;
     font-style: italic;
 }
 
 .f-address{
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 4px;
 }
 
 .f-a:hover .f-span{
@@ -99,8 +99,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    font-size: 0.9rem;
+    gap: 12px;
+    font-size: 14px;
 }
 
 .f-link:hover {

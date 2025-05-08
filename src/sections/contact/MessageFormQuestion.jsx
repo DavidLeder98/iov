@@ -1,4 +1,5 @@
 import './MessageForm.css';
+import send from '../../assets/svgs/message/send.svg';
 
 const MessageFormQuestion = () => {
     return (
@@ -38,9 +39,10 @@ const MessageFormQuestion = () => {
                     required
                 ></textarea>
             </div>
-            <div className="mf-btn-cont">
-                <button className="mf-btn" type="submit">Pošalji</button>
-            </div>
+            <button className="mf-btn" type="submit">
+                <img src={send} alt="send the message" className="message-send" />
+                Pošalji
+            </button>
         </form>
     );
 }

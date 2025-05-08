@@ -1,325 +1,223 @@
-.nav-large{
+.nl-2{
     width: 100%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 101;
-    position: relative;
-    background-color: #af2b2b;
+    border-bottom: 1px solid #576a8f;
+}
+
+.nl-2-top{
+    background-color: #fff;
+    width: 100%;
+    height: 96px;
     transition: 0.3s ease-in-out;
 }
 
-.nav-large.scrolled{
-    height: 80px;
+.nl-2-top.scrolled{
+    height: 0;
+    pointer-events: none;
 }
 
-.nl-darker{
-    position: absolute;
-    height: 100%;
-    width: 53%;
-    top: 0;
-    right: -50px;
+.nl-2-top.scrolled .nl-2-top-essence{
     opacity: 0;
-    transform: skew(-30deg);
-    background-color: #00205c;
 }
 
-.nl-darkest{
-    position: absolute;
-    height: 100%;
-    width: 15%;
-    top: 0;
-    right: -50px;
-    opacity: 0;
-    transform: skew(-30deg);
-    background-color: #00205c;
-}
-
-.nl-essence{
+.nl-2-top-essence{
     width: 100%;
-    max-width: 1600px;
     height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 36px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    z-index: 102;
+    transition: 0.3s ease-in-out;
 }
 
-.nl-logo-cont{
+.nl-2-top-left{
     height: 100%;
     display: flex;
     flex-direction: row;
+    gap: 16px;
     align-items: center;
-    gap: 10px;
     cursor: pointer;
 }
 
-.nll-img-cont{
-    height: 80px;
-    width: 80px;
+.nl-2-logo-cont{
+    height: 56px;
     transition: 0.3s ease-in-out;
-    background-color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.nll-img-cont.scrolled{
-    height: 50px;
-    width: 50px;
+.nl-2-logo{
+    height: 100%;
 }
 
-.nl-logo{
-    height: 70%;
-    width: 70%;
-    
+.nl-2-logo-text{
+    color: #193a79;
+    transition: 0.3s ease-in-out;
 }
 
-.nll-text{
+.nl-2-top-right{
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
-}
-
-.nllt-top{
-    font-size: 1.4rem;
-    padding: 0 30px 5px 0;
-    border-bottom: #fff 2px solid;
-    text-transform: uppercase;
-    font-weight: 400;
+    gap: 6px;
     transition: 0.3s ease-in-out;
 }
 
-.nllt-top.scrolled{
-    font-size: 1.1rem;
-    padding: 0 20px 3px 0;
-}
-
-.nllt-bot{
-    font-size: 1.2rem;
-    padding: 5px 20px 0 0;
-    font-weight: 400;
-    transition: 0.3s ease-in-out;
-}
-
-.nllt-bot.scrolled{
-    padding: 3px 20px 0 0;
-    font-size: 1rem;
-    letter-spacing: 0.05rem;
-}
-
-.nl-bar{
-    height: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nl-ul{
-    height: 100%;
+.nl-2-tr-a{
+    font-style: italic;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
-    z-index: 106;
+    justify-content: right;
+    gap: 8px;
 }
 
-.nl-li{
-    height: 101%;
-    position: relative;
+.nl-2-tr-a:hover{
+    text-decoration: underline;
 }
 
-.nl-a{
-    color: #fff;
+.nl-2-tr-location{
+    height: 16px;
+}
+
+.nl-2-tr-phone{
+    height: 20px;
+}
+
+.nl-2-tr-email{
+    height: 16px;
+}
+
+.nl-2-bot{
+    height: 64px;
+    width: 100%;
+    background-color: #193a79;
+}
+
+.nl-2-nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 36px;
+}
+
+.nl-2-ul{
+    width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: row;
+}
+
+.nl-2-logo-small{
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transition: 0.4s ease-in-out;
+    display: flex;
     align-items: center;
-    transition: 0.3s ease-in-out;
-    text-transform: uppercase;
+    gap: 16px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
 }
 
-.nl-a:hover{
-    color: #ff3030;
+.nl-2-logo-small.scrolled{
+    height: 100%;
+    width: 160px;
+    pointer-events: all;
 }
 
-.nl-arrow-selector{
-    display: inline-block;
-    height: 24px;
-    width: 24px;
+.nl-2-img-small-cont{
+    height: 48px;
+    width: 48px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.nl-2-img-small{
+    height: 100%;
+}
+
+.nl-2-li{
+    height: 100%;
+    border-right: 1px solid #576a8f;
+    display: flex;
     position: relative;
 }
 
-.nl-arrow-1{
-    position: absolute;
+.nl-2-li-first{
+    border-left: 1px solid #576a8f;
+}
+
+.nl-2-a{
+    position: relative;
+    display: block;
+    height: 64px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #fff;
+    border-top: 4px solid #193a79;
+    border-bottom: 3px solid #193a79;
+}
+
+.nl-2-a:hover{
+    height: 65px;
+    background-color: #132d5c;
+    border-top: 4px solid #132d5c;
+    border-bottom: 4px solid #D22B2B;
+}
+
+.nl-2-arrow{
     height: 24px;
-    width: 24px;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    transition: 0.3s ease-in-out;
 }
 
-.nl-arrow-2{
-    position: absolute;
-    height: 24px;
-    width: 24px;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-}
-
-.nl-a:hover .nl-arrow-1{
-    opacity: 0;
-}
-
-.nl-a:hover .nl-arrow-2{
-    opacity: 1;
-}
-
-.nl-li-underline{
-    width: 0%;
-    height: 2px;
-    position: absolute;
-    bottom: 45px;
-    left: 0;
-    background-color: #D22B2B;
-    transition: 0.3s ease-in-out;
-    pointer-events: none;
-}
-
-.nl-li-underline.scrolled{
-    bottom: 25px;
-}
-
-.nl-li:hover .nl-li-underline{
-    width: 100%;
-}
-
-.dd-menu-frame{
-    width: 340px;
-    padding: 0px 20px 0 20px;
-    position: absolute;
-    top: 90px;
-    left: -70px;
+.dd-menu-cont{
     pointer-events: none;
     overflow: hidden;
+    padding: 0 24px 24px 24px;
+    position: absolute;
+    top: 65px;
 }
 
-.dd-menu-frame.scrolled{
-    top: 70px;
+.ddmc-l{
+    width: 400px;
+    left: -48px;
 }
 
-.dd-menu{
-    width: 100%;
-    cursor: pointer;
+.ddmc-s{
+    width: 280px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.nl-2-onama-cont, .nl-2-vodic-cont, .nl-2-javnost-cont, .nl-2-lang-cont{
+    pointer-events: none;
+    opacity: 0;
     transform: translateY(-100px);
     transition: 0.3s ease-in-out;
-    background-color: #fff;
-    opacity: 0;
-    padding: 10px 10px 20px 10px;
-    margin: 0 0 20px 0;
-    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.1);
 }
 
-.nl-li:hover .dd-menu{
+.nl-2-onama-li:hover .nl-2-onama-cont, .nl-2-vodic-li:hover .nl-2-vodic-cont, .nl-2-javnost-li:hover .nl-2-javnost-cont, .nl-2-lang-li:hover .nl-2-lang-cont{
     pointer-events: auto;
     transform: translateY(0);
     opacity: 1;
 }
 
-.ddm-li{
-    width: 100%;
-}
-
-.ddm-li-a{
-    padding: 10px 20px;
-    width: 100%;
-    display: block;
-}
-
-.ddm-li:hover .ddm-li-a{
-    background-color: #00205c25;
-}
-
-.nl-lang{
+.nl-2-lang-btn{
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
-    cursor: pointer;
 }
 
-.nl-lang-selected{
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.nl-lang-img-cont{
-    width: 35px;
-}
-
-.nl-lang-img{
-    width: 100%;
-}
-
-.nlls-span{
-    color: #00205c;
-}
-
-.nl-languages-toggler{
-    width: 250px;
-    padding: 0px 20px 0 20px;
-    position: absolute;
-    top: 90px;
-    left: -70px;
-    pointer-events: none;
-    overflow: hidden;
-}
-
-.nl-languages-toggler.scrolled{
-    top: 70px;
-}
-
-.nl-languages{
-    position: absolute;
-    right: -80px;
-    top: 90px;
-    width: 200px;
-    background-color: #fff;
-    padding: 10px 10px 15px 10px;
-    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.1);
-    transition: 0.3s ease-in-out;
-}
-
-.nl-languages.scrolled{
-    top: 80px;
-}
-
-.nl-lang-li{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.nl-lang-li:hover{
-    background-color: #00205c25;
-}
-
-.nl-lang-min-img{
-    width: 30px;
+.nl-2-flag{
+    height: 24px;
+    margin: 0 16px 0 0;
 }

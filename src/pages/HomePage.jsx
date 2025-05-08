@@ -1,5 +1,5 @@
 import Footer from '../sections/footer/Footer';
-import Hero from '../sections/hero/Hero';
+import Hero from '../sections/hero/Hero2';
 import Map from '../sections/map/Map';
 import BackTopBtn from '../buttons/back_top/BackTopBtn';
 import Heraldry from '../sections/heraldry/Heraldry';
